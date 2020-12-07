@@ -1,0 +1,34 @@
+INTRODUCTION:
+
+   A Virtual Private Cloud (VPC) network is a virtual version of a physical network, implemented inside of Google's production network.
+   Projects can contain multiple VPC networks. Unless you create an organizational policy that prohibits it, 
+   new projects start with a default network that has one subnetwork (subnet) in each region.
+
+
+FEATURES OF VPC NETWORKS:
+
+Its interesting way of dealing with the security and accessiblity make it an intersting one.
+    
+VPC networks, including their associated routes and firewall rules, are global resources. They are not associated with any particular region or zone.
+    Subnets are regional resources. Each subnet defines a range of IP addresses.
+    Traffic to and from instances can be controlled with network firewall rules.
+    Rules are implemented on the VMs themselves, so traffic can only be controlled and logged as it leaves or arrives at a VM.
+    Network administration can be secured by using Identity and Access Management (IAM) roles.
+
+
+    SUBNET:
+
+   Each VPC network consists of one or more useful IP range partitions called subnets. Each subnet is associated with a region. 
+   VPC networks do not have any IP address ranges associated with them. IP ranges are defined for the subnets.
+
+
+SITUATION  WHERE  VPC  CAN BE USED:
+
+    The VPC networks are secure,scaleable,cutomizable and flexible which makes the developers more agile.
+    suppose a situation arises when you need to create a private Virtual machine(VM) but you also need to update it?
+    this can be done by creating a vpc network of two subnets with individual VM and can set route of the one to the internet making it prublic while still having the VM you want to be private and
+    just adding a Network Address Translation (NAT) gateway in the previous subnet and connecting it to the target subnet and getting access to the individual VM.
+
+
+
+

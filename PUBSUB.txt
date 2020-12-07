@@ -1,0 +1,17 @@
+
+INTRODUCTION:
+
+       Pub/Sub is an messaging service that seprate services that produce events from services that process events.
+       You can use Pub/Sub as messaging-oriented middle or event ingestion and delivery for streaming analytics pipelines.
+       Pub/Sub offers durable message storage and real-time message delivery with high availability and consistent performance at scale.
+
+A publisher application creates and sends messages to a topic. Subscriber applications create a subscription to a topic to receive messages from it.
+This is the most interesting and helpful at time of distribution.
+
+SITUATIONS:
+
+    Large number of tasks can be  distributed more precisely  among multiple workers.
+    Also order processing application can place an order on a topic, from which it can be processed by one or more workers.
+    service that accepts user signups can send notifications whenever a new user registers, and downstream services can subscribe to receive notifications of the event.
+    an application can publish invalidation events to update the IDs of objects that have changed.also single-zone Compute Engine service can operate in additional zones by subscribing to a common topic, 
+    to recover from failures in a zone or region.

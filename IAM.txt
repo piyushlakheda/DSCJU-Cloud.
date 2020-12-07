@@ -1,0 +1,22 @@
+
+INTRODUCTION:
+
+     Identity and Access Management (IAM) lets administrators authorize who can take action on specific resources, 
+     giving you full control and visibility to manage Google Cloud resources centrally. For enterprises with complex organizational structures, hundreds of workgroups, and many projects, 
+     Cloud IAM provides a unified view into security policy across your entire organization, with built-in auditing to ease compliance processes.
+     Map job functions within your company to groups and roles. Users get access only to what they need to get the job done, and admins can easily grant default permissions to entire groups of users.
+
+FEATURES:
+
+    Single access control interface
+    IAM access-control policy that grants the Subscriber role to a user for a particular Pub/Sub topic.
+    you can automatically detect overly permissive access and rightsize them based on similar users in the organization and their access patterns.
+    you could grant Owner, Editor, or Viewer roles to users.
+
+
+SITUATION:
+
+    IAM offers a wide range of fetures which can be for any companies and enterprises to work well.
+    ALL the data aren't meant to be access by all the members of a particular company so by deciding role and monitoring te access of the users you can maintain the privacy and can run the project securly.
+
+
